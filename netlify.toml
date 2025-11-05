@@ -1,6 +1,6 @@
 [build]
-publish = "MudBlazorAssemb/bin/Release/net9.0/publish/wwwroot"
-command = "curl -sSL https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh && bash /tmp/dotnet-install.sh --channel 9.0 --install-dir $HOME/.dotnet && export PATH=$HOME/.dotnet:$PATH && dotnet --info && cd MudBlazorAssemb && dotnet publish -c Release"
+publish = "MudBlazorAssemb.Client/bin/Release/net9.0/publish/wwwroot"
+command = "curl -sSL https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh && bash /tmp/dotnet-install.sh --channel 9.0 --install-dir $HOME/.dotnet && export PATH=$HOME/.dotnet:$PATH && dotnet --info && cd MudBlazorAssemb.Client && dotnet publish -c Release"
 
 [[redirects]]
 from = "/*"
